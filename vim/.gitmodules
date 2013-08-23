@@ -1,0 +1,21 @@
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = http://github.com/msanders/snipmate.vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = http://github.com/ervandew/supertab.git
+[submodule "bundle/pyflakes"]
+	path = bundle/pyflakes
+	url = http://github.com/mitechie/pyflakes-pathogen.git
+[submodule "bundle/pydocs"]
+	path = bundle/pydocs
+	url = http://github.com/fs111/pydoc.vim.git
+[submodule "bundle/pep8"]
+	path = bundle/pep8
+	url = http://github.com/vim-scripts/pep8.git
+[submodule "bundle/ropevim"]
+	path = bundle/ropevim
+	url = http://github.com/sontek/rope-vim.git
+[submodule "bundle/tcomment_vim"]
+	path = bundle/tcomment_vim
+	url = http://github.com/tomtom/tcomment_vim

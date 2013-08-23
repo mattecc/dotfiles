@@ -1,0 +1,17 @@
+Setup Terminal Environment
+1) Apple > System Preferences > Keyboard > Modifier Keys.. > Caps Lock => Ctrl
+2) Add Terminal to Quick Launch (M-A)
+3) Import ~/Dropbox/dotfiles/MacConfig/Wow.terminal
+4) Create and save Terminal Window Group (84x49, 84x25, 84x23)
+5) ln -s ~/Dropbox/dotfiles/bash/profile.bash ~/.bash_profile
+6) ln -s ~/Dropbox/dotfiles/vim/vimrc_mac.vim ~/.vimrc
+7) Download and install MacVim
+     http://code.google.com/p/macvim/downloads/detail?name=MacVim-snapshot-69-Mountain-Lion.tbz&can=2&q=
+
+Install Homebrew
+----------------
+$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+
+brew install git
+brew install macvim --override-system-vim
+brew install coreutils (GNU utils including ls --color)
